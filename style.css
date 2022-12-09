@@ -19,40 +19,43 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
- min-width: 60%;
+  width: 60%;
 }
 
 h1 {
   padding-bottom: 50px;
   text-transform: capitalize;
-  color: #7d7ddc;
-  font-size: 32px;
-
+  font-size: 36px;
+  color: #e5e0ea;
 }
 
 h1 span {
   font-weight: normal;
   font-family: fantasy;
   letter-spacing: 1.5px;
-  color: #e5e0ea;
+  color: #7d7ddc;
+  font-size: 24px;
+
 }
 
 .time {
   color: #fff;
+  margin: 10px;
 }
 
 .time h2 {
-  margin-bottom: 0;
+  margin:0;
+  font-size: 30px;
 }
 
-.time small {
+ h2 span {
   text-transform: uppercase;
-  font-weight: bold;
+  font-size: 14px;
 
 }
 
 @media(max-width:560px) {
   .countdown {
-    width: 80%;
+    width: 90%;
   }
 }
