@@ -12,24 +12,25 @@ body {
   overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  font-size: 18px;
 }
 
 .countdown {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+ min-width: 60%;
 }
 
 h1 {
   padding-bottom: 50px;
   text-transform: capitalize;
   color: #7d7ddc;
+  font-size: 32px;
 
 }
 
 h1 span {
-  font-size: 24px;
   font-weight: normal;
   font-family: fantasy;
   letter-spacing: 1.5px;
@@ -46,6 +47,7 @@ h1 span {
 
 .time small {
   text-transform: uppercase;
+  font-weight: bold;
 
 }
 
